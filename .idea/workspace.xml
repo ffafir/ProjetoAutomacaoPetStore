@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/BuscarPetPeloStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/PetPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/PetPayload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/requests/PetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/requests/PetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/AlterarPetCadastradoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/AlterarPetCadastradoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/BuscarPetInexistenteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/BuscarPetInexistenteTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/CadastrarNovoPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/CadastrarNovoPetTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="Inserido a busca por pets utilizando somente o status." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,12 +403,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678845779593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inserido a busca por pets utilizando somente o status.">
+      <created>1678894770785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678894770785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente." />
+    <MESSAGE value="Inserido a busca por pets utilizando somente o status." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserido a busca por pets utilizando somente o status." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
