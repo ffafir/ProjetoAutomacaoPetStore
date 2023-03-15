@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/BuscarPetInexistentePayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/PetPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/model/BuscarPet/BuscarPetInexistenteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/model/Cadastro/PetModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/runners/SchemasTestesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/runners/TodosTestesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/requests/BaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/buscarPetInexistente/requests/BuscarPetInexistenteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/requests/PetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/AlterarPetCadastradoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/BuscarPetInexistenteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/CadastrarNovoPetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/Cadastro/cadastro.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MjYoqHfqPgmAzaQD75A0sV53dx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Fabiano/IdeaProjects/ProjetoAutomacaoPetStore/src/test/java/Testes_PetStore_Fabiano",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.BuscarPetInexistenteTests.informarIDInvalidoBuscarPet">
+    <configuration name="BuscarPetInexistenteTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests.BuscarPetInexistenteTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscarPetInexistenteTests.informarIDInvalidoBuscarPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.buscarPetInexistente.tests.BuscarPetInexistenteTests" />
+      <option name="METHOD_NAME" value="informarIDInvalidoBuscarPet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.CadastroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaTest" type="JUnit" factoryName="JUnit">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Microsoft/jdk-11.0.16.101-hotspot" />
+      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.runners" />
+      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Fabiano/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" type="TestNG">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.CadastroTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Microsoft/jdk-11.0.16.101-hotspot" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Microsoft/jdk-11.0.16.101-hotspot" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="$MODULE_WORKING_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties>
+        <property name="" value="" />
+      </properties>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Microsoft/jdk-11.0.16.101-hotspot" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroTest.deveCadastrarComSucessoPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests.cadastro.tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.cadastro.tests.CadastroTest" />
+      <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <envs>
+        <env name="LOGONSERVER" value="\\DESKTOP-RJEE6AS" />
+        <env name="USERDOMAIN" value="DESKTOP-RJEE6AS" />
+      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPetStore" type="TestNG" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPetStore" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPetStore.validarGetFindByStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPetStore" />
+      <option name="METHOD_NAME" value="validarGetFindByStatus" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JavaTest" />
+      <item itemvalue="JUnit.BuscarPetInexistenteTests" />
+      <item itemvalue="JUnit.BuscarPetInexistenteTests.informarIDInvalidoBuscarPet" />
+      <item itemvalue="JUnit.CadastroTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BuscarPetInexistenteTests.informarIDInvalidoBuscarPet" />
+        <item itemvalue="JUnit.BuscarPetInexistenteTests" />
+        <item itemvalue="JUnit.CadastroTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="" />
+      <created>1678282641849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678282641849</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/requests/PetRequest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/tests/CadastrarNovoPetTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/requests/PetRequest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/tests/BaseTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/cadastro/requests/PetRequest.java</url>
+          <line>12</line>
+          <properties class="Testes_PetStore_Fabiano.tests.cadastro.requests.PetRequest" method="register">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjetoAutomacaoPetStore$CadastroTest.ic" NAME="CadastroTest Coverage Results" MODIFIED="1678499452391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.cadastro.tests.*</FILTER>
+    </SUITE>
+  </component>
+</project>
