@@ -1,8 +1,9 @@
-package Testes_PetStore_Fabiano.tests.cadastro.requests;
+package Testes_PetStore_Fabiano.tests.pet.requests;
 
 import Testes_PetStore_Fabiano.payloads.PetPayload;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
+import org.apache.http.HttpStatus;
 
 import static io.restassured.RestAssured.*;
 
@@ -39,6 +40,21 @@ public class PetRequest {
                 .when()
                 .body(PetPayload.toJson(id, name))
                 .put(PATH_PET);
+    }
+
+    @Step("Buscar um pet pelo seu Status")
+    public Response BuscarPetStatus(String status){
+        return given()
+                    .header("accept", "application/json")
+                    .header("Content-Type", "application/json")
+                .when()
+                .queryParam("status", status)
+                .get(PATH_PET + "/findByStatus");
+    }
+
+    @Step("Extrair o primeiro item da lista")
+    public Response ExtrairPets(){
+        return BuscarPetStatus("pending").then().statusCode(HttpStatus.SC_OK).extract().path("[].status");
     }
 
 

@@ -1,6 +1,6 @@
-package Testes_PetStore_Fabiano.tests.cadastro.tests;
+package Testes_PetStore_Fabiano.tests.pet.tests;
 
-import Testes_PetStore_Fabiano.tests.cadastro.requests.PetRequest;
+import Testes_PetStore_Fabiano.tests.pet.requests.PetRequest;
 import Testes_PetStore_Fabiano.tests.base.tests.BaseTest;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;

@@ -1,4 +1,4 @@
-package Testes_PetStore_Fabiano.tests.cadastro.tests;
+package Testes_PetStore_Fabiano.tests.pet.tests;
 
 import Testes_PetStore_Fabiano.tests.buscarPetInexistente.requests.BuscarPetInexistenteRequest;
 import Testes_PetStore_Fabiano.tests.base.tests.BaseTest;
