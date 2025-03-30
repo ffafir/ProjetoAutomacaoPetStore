@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="Inserido a busca por pets utilizando somente o status." />
+    <list default="true" id="ec0d9aed-d8fd-4c3c-a568-f3006fea72a4" name="Changes" comment="Inserido a busca por pets utilizando somente o status.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/model/storeOrder/storeOrderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/storeOrderPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/storeOrder/requests/storeOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/storeOrder/tests/cadastrarStoreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/storeOrder/storeOrderSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/BuscarPetInexistentePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/BuscarPetInexistentePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/PetPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/PetPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/model/BuscarPet/BuscarPetInexistenteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/model/BuscarPet/BuscarPetInexistenteModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/payloads/model/Cadastro/PetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/payloads/model/Cadastro/PetModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/runners/SchemasTestesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/runners/SchemasTestesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/runners/TodosTestesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/runners/AllApiTestsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/requests/BaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/base/requests/BaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/base/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/buscarPetInexistente/requests/BuscarPetInexistenteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/buscarPetInexistente/requests/BuscarPetInexistenteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/requests/PetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/pet/requests/PetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/AlterarPetCadastradoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/pet/tests/AlterarPetCadastradoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/BuscarPetInexistenteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/pet/tests/BuscarPetInexistenteTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/BuscarPetPeloStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/pet/tests/BuscarPetPeloStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/CadastrarNovoPetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/tests/pet/tests/CadastrarNovoPetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testes_ProjetoAutomatizarAPIs/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/schemas/Cadastro/cadastro.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schemas/pet/petSchema.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +46,31 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ffafir/ProjetoAutomacaoPetStore.git&quot;,
+    &quot;accountId&quot;: &quot;c6b91a86-1eab-44cb-a7ab-5583f0cb5f3f&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2MjYoqHfqPgmAzaQD75A0sV53dx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,74 +81,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AllApiTestsRunner.executor": "Run",
+    "JUnit.BuscarPetInexistenteTests.informarIDInvalidoBuscarPet.executor": "Run",
+    "JUnit.BuscarPetPeloStatus.buscarPetUtilizandoStatus.executor": "Run",
+    "JUnit.BuscarPetPeloStatus.deveValidarSchemaBuscadoPetStatus.executor": "Run",
+    "JUnit.CadastrarNovoPetTest.deveCadastrarComSucessoPet.executor": "Run",
+    "JUnit.CadastrarNovoPetTest.executor": "Run",
+    "JUnit.SchemasTestesRunner.executor": "Run",
+    "JUnit.TodosTestesRunner.executor": "Run",
+    "JUnit.addProductsTests.adicionarProdutos.executor": "Run",
+    "JUnit.authProductsTests.autenticarProduto.executor": "Run",
+    "JUnit.cadastrarStoreOrder.cadastrarStoreFornecendoTodosDados.executor": "Run",
+    "JUnit.cadastrarStoreOrder.deveValidarSchemaStoreOrder.executor": "Run",
+    "JUnit.cadastrarStoreOrder.executor": "Run",
+    "JUnit.loginTests.executor": "Run",
+    "JUnit.loginTests.obterListaUsuarios.executor": "Run",
+    "JUnit.loginTests.realizarLoginAPI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Fabiano/IdeaProjects/ProjetoAutomacaoPetStore/src/test/java/Testes_PetStore_Fabiano",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
+    "TestNG.TestPetStore.executor": "Run",
+    "git-widget-placeholder": "projetoAutomacaoAPIs",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Fabia/IdeaProjects/ProjetoAutomacaoPetStore",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BuscarPetPeloStatus.buscarPetUtilizandoStatus">
-    <configuration name="AlterarPetCadastradoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fabia\IdeaProjects\ProjetoAutomacaoPetStore\src\test\resources\schemas\storeOrder" />
+      <recent name="C:\Users\Fabia\IdeaProjects\ProjetoAutomacaoPetStore\src\test\resources\schemas\cadastro" />
+      <recent name="C:\Users\Fabia\IdeaProjects\ProjetoAutomacaoPetStore\src\test\resources\schema" />
+      <recent name="C:\Users\Fabia\IdeaProjects\ProjetoAutomacaoPetStore\src\test\resources\schemas\Cadastro\storeOrder" />
+      <recent name="C:\Users\Fabia\IdeaProjects\ProjetoAutomacaoPetStore\src\test\resources\schema\cadastro" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SchemasTestesRunner">
+    <configuration name="AllApiTestsRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoAutomacaoPetStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.tests.pet.tests.*" />
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests" />
-      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests.AlterarPetCadastradoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlterarPetCadastradoTest.alterarPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoAutomacaoPetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.tests.pet.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests" />
-      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests.AlterarPetCadastradoTest" />
-      <option name="METHOD_NAME" value="alterarPet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuscarPetInexistenteTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoAutomacaoPetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.tests.pet.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests" />
-      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests.BuscarPetInexistenteTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuscarPetPeloStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjetoAutomacaoPetStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.tests.pet.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests" />
-      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests.BuscarPetPeloStatus" />
+      <option name="PACKAGE_NAME" value="Testes_ProjetoAutomatizarAPIs.runners" />
+      <option name="MAIN_CLASS_NAME" value="Testes_ProjetoAutomatizarAPIs.runners.AllApiTestsRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +141,29 @@
       <module name="ProjetoAutomacaoPetStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.tests.pet.tests.*" />
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests" />
-      <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.tests.pet.tests.BuscarPetPeloStatus" />
+      <option name="PACKAGE_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests.BuscarPetPeloStatus" />
       <option name="METHOD_NAME" value="buscarPetUtilizandoStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscarPetPeloStatus.deveValidarSchemaBuscadoPetStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.pet.tests.BuscarPetPeloStatus" />
+      <option name="METHOD_NAME" value="deveValidarSchemaBuscadoPetStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,7 +173,7 @@
       <module name="ProjetoAutomacaoPetStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testes_PetStore_Fabiano.*" />
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +182,37 @@
       <option name="PACKAGE_NAME" value="Testes_PetStore_Fabiano.payloads.runners" />
       <option name="MAIN_CLASS_NAME" value="Testes_PetStore_Fabiano.payloads.Tests.cadastro.tests.CadastroTest" />
       <option name="METHOD_NAME" value="deveCadastrarComSucessoPet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemasTestesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_ProjetoAutomatizarAPIs.runners" />
+      <option name="MAIN_CLASS_NAME" value="Testes_ProjetoAutomatizarAPIs.runners.SchemasTestesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cadastrarStoreOrder.deveValidarSchemaStoreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjetoAutomacaoPetStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testes_ProjetoAutomatizarAPIs.tests.storeOrder.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.storeOrder.tests" />
+      <option name="MAIN_CLASS_NAME" value="Testes_ProjetoAutomatizarAPIs.tests.storeOrder.tests.cadastrarStoreOrder" />
+      <option name="METHOD_NAME" value="deveValidarSchemaStoreOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -371,19 +436,22 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.JavaTest" />
-      <item itemvalue="JUnit.AlterarPetCadastradoTest" />
-      <item itemvalue="JUnit.AlterarPetCadastradoTest.alterarPet" />
-      <item itemvalue="JUnit.BuscarPetInexistenteTests (1)" />
-      <item itemvalue="JUnit.BuscarPetPeloStatus" />
+      <item itemvalue="JUnit.AllApiTestsRunner" />
       <item itemvalue="JUnit.BuscarPetPeloStatus.buscarPetUtilizandoStatus" />
+      <item itemvalue="JUnit.BuscarPetPeloStatus.deveValidarSchemaBuscadoPetStatus" />
+      <item itemvalue="JUnit.SchemasTestesRunner" />
+      <item itemvalue="JUnit.cadastrarStoreOrder.deveValidarSchemaStoreOrder" />
+      <item itemvalue="TestNG.C:/Users/Fabiano/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" />
+      <item itemvalue="TestNG.CadastroTest.deveCadastrarComSucessoPet" />
+      <item itemvalue="TestNG.TestPetStore" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SchemasTestesRunner" />
+        <item itemvalue="JUnit.BuscarPetPeloStatus.deveValidarSchemaBuscadoPetStatus" />
         <item itemvalue="JUnit.BuscarPetPeloStatus.buscarPetUtilizandoStatus" />
-        <item itemvalue="JUnit.BuscarPetPeloStatus" />
-        <item itemvalue="JUnit.AlterarPetCadastradoTest.alterarPet" />
-        <item itemvalue="JUnit.AlterarPetCadastradoTest" />
-        <item itemvalue="JUnit.BuscarPetInexistenteTests (1)" />
+        <item itemvalue="JUnit.cadastrarStoreOrder.deveValidarSchemaStoreOrder" />
+        <item itemvalue="JUnit.AllApiTestsRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -413,45 +481,38 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Realizado a escrita de abordagens de automação para api rest do repositório pet store, onde foi mapeado o cadastro de um novo pet, alteração e buscar por um pet inexistente." />
     <MESSAGE value="Inserido a busca por pets utilizando somente o status." />
     <option name="LAST_COMMIT_MESSAGE" value="Inserido a busca por pets utilizando somente o status." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/requests/PetRequest.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/tests/CadastrarNovoPetTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/requests/PetRequest.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/base/tests/BaseTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Testes_PetStore_Fabiano/tests/pet/requests/PetRequest.java</url>
-          <line>12</line>
-          <properties class="Testes_PetStore_Fabiano.tests.pet.requests.PetRequest" method="register">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
